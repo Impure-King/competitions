@@ -1,0 +1,95 @@
+/* Trying to prevent the gap of the top div. */
+
+body {
+    margin:0;
+    padding:0;
+}
+
+/* This is the basic designing of the navigation bar. */
+
+#mainbar {
+    background-color: darkslategray;
+    height: 60px;
+}
+
+
+#mainbar ul {
+    list-style-type: none;
+    padding: 0; /* Unordered lists have their own padding. */
+    margin: 0;
+}
+
+#mainbar ul li {
+    float: left; /* Forces the blocks to float left. */
+    height: 60px;
+}
+
+#mainbar ul li a {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Styling the hover a bit */
+
+#mainbar ul li:hover {
+    background-color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+/* Adjusting the logo a bit. */
+
+#logo {
+    height:40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    display:block;
+}
+
+/* This is the designing of my intro page */
+
+.title {
+    padding-left: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+#introduction-image {
+    text-align: center;
+}
+
+#introduction-image img {
+    outline:auto;
+    outline-color: aqua;
+    height: 200px;
+}
+
+.introduction {
+    /* Formatting the div to its surroundings. */
+    margin:0 auto;
+    padding-top : 0px;
+    padding-left: 10px;
+    
+    /* Formatting an outline. */
+    outline: auto;
+    outline-color: lightgray;
+    outline-width:1px;
+    outline-offset: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.introduction-text {
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+}
